@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CSS/Estilo.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+<title>Contactar EHI</title>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">barra de navegación</font></font></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Navegación de palanca">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Datos personales.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Datos Personales</font></font></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="info_academica.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Información Academica</font></font></a>
+            </li>
+			 <li class="nav-item">
+              <a class="nav-link" href="Exp_laboral.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Experiencia Laboral</font></font></a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="Pretensiones.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pretensiones</font></font></a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="Familia.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Familia</font></font></a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="Amigos.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Amigos</font></font></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Hobbies.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hobbies</font></font></a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link active" href="Contacto.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contactame</font></font></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	<div id="principal">
+		<h1>≫ ──── ≪Contactar≫ ──── ≪ </h1>
+		<form name="formulario" action="mailto:i20220117.19@puebla.tecnm.mx?%20subject=prueba" method="post" enctype="multipart/data">
+		<fieldset>
+			<legend>Datos generales</legend>
+				<table align="center" width="100%" border="0" cellpadding="5">
+					<tbody><tr>
+						<td align="center" width="508">
+							Ingrese su nombre: <input type="text" name="Nombre_Usuario" size="20" maxlength="50" tabindex="1" accesskey="n">
+						</td>
+						<td width="132" align="center">
+							Idique su genero: <br>Masculino<br>Femenino
+						</td>
+						<td width="22">
+							<br>
+							<input type="radio" name="Sexo" value="M" checked="" tabindex="3" accesskey="s">
+							<input type="radio" name="Sexo" value="F" tabindex="5">
+						<br></td>
+						<td width="152" align="center">
+							¿Te gusto este sitio web? <br>Si: <br>No:<br>Más o menos 
+						</td>
+						<td width="19">
+							<br>
+							<br>
+							<input type="radio" name="Te gusta" value="Si" checked="" tabindex="4" accesskey="i">
+							<input type="radio" name="Te_gusta" value="no" tabindex="6">
+							<input type="radio" name="Te gusta" value="m_o_m" tabindex="7">
+						<br></td>
+					</tr>
+					<tr>
+					</tr>
+
+						<td width="508" align="center">
+						Opine sobre mi p&aacute;gina:<br>
+						<textarea name="opinion" cols="50" rows=5 wrap="virtual">
+						</textarea><br>
+						</td>
+						
+					</tr>
+					<tr>
+						<td align="center" width="508">
+							Indique su edad: <input type="text" name="Edad" cols="25" rows="5" wrap="virtual" tabindex="2" accesskey="o">
+						</td>
+					</tr>
+				</tbody></table>
+		</fieldset>	
+
+        <fieldset>
+            <legend> Encuesta rapida</legend>
+            <table align="center" width="740" border="0" cellpadding="5">
+                <tbody><tr>
+                    <td align="center" rowspan="2" valign="top" width="164">
+                        Indique cuál parte te gusto
+                    </td>
+                    <td width="80" rowspan="2" valign="top">
+                        <select name="Parte_te_gusto" tabindex="11" accesskey="p">
+                            <option value="1 Datos Personales">     Datos Personales</option>
+                            <option value="2 Información Academica">Información Academica</option>
+							<option value="4 Experiencia Laboral">	Experiencia Laboral</option>
+                            <option value="5 Pretensiones">         Pretensiones</option>
+                            <option value="6 Familia">              Familia</option>
+                            <option value="6 Amigos">               Amigos</option>
+                            <option value="7 Hobbies">              Hobbies</option>
+                        </select>
+                    </td>
+                    <td align="center" rowspan="2" valign="top" width="164">
+                        Indique cuál parte le que no gusto
+                    </td>
+                    <td width="80" rowspan="2" valign="top">
+                        <select name="Parte_no_te_gusto" tabindex="11" accesskey="n">
+                            <option value="1 Datos Personales">     Datos Personales</option>
+                            <option value="2 Información Academica">Información Academica</option>
+							<option value="4 Experiencia Laboral">	Experiencia Laboral</option>
+                            <option value="5 Pretensiones">         Pretensiones</option>
+                            <option value="6 Familia">              Familia</option>
+                            <option value="6 Amigos">               Amigos</option>
+                            <option value="7 Hobbies">              Hobbies</option>
+                        </select>
+                    </td>
+                <tr>
+                    <td width="101">&nbsp;
+                        
+                    </td> 
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="submit" name="mandar" value="Enviar" tabindex="13">
+                    </td>
+                    <td colspan="2">
+                        <input type="reset" name="borrado" value="Borrar" tabindex="14">
+                    </td>
+                </tr>
+
+            </tr></tbody></table>
+            <input type="hidden" name="escondido" value="oculto">
+        </fieldset>
+	</form>
+	</div>
+</body>
+</html>
